@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../Javascript/assets/style/reset.css">
+    <link rel="stylesheet" type="text/css" href="../Javascript/assets/style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+    </style>
+    
+        
+    <title>Planejamento Semanal</title>
+</head>
+<body>
+    <header class="header_content d-flex justify-content-between align-items-center p-top">
+        <div class="principal">
+            <h4 class="titulo">Planejamento Semanal</h4>
+            <p class="subtitulo">Utilize o formulário para planejar novas tarefas</p>
+        </div>
+        <div class="header-btns">
+            <button type="button" class="btn btn-success btn1">Salvar localStorage</button>
+            <button type="button" class="btn btn-danger btn2">Deletar localStorage</button>            
+        </div>
+            <div class="relogio">
+                <div class="relogio-estilo">
+                    <span id="hora">00</span>
+                    <span>:</span>
+                    <span id="minuto">00</span>                    
+                </div>
+                    <span class="calendario" id="data">xx de xx de xxxx</span>
+                     
+                <div>
+                                        
+                </div>
+            </div>
+    </header>
+    <main>
+         <div class="main-container">  
+            <div>
+                <input  class="atividade" type="text" placeholder="atividade">
+            </div>
+            <div>
+            <select name="dia-da-semana" class="dia-da-semana">
+                <option value="valor1" selected>Segunda-feira</option>
+                <option value="valor2">Terça-feira</option>
+                <option value="valor3">quarta-feira</option>
+                <option value="valor2">Quinta-feira</option>
+                <option value="valor3">Sexta-feira</option>
+                <option value="valor2">Sabado-feira</option>
+                <option value="valor3">Domingo-feira</option>
+            </select>
+            </div>
+            <div>
+                <input type="time">
+            </div> 
+            <div class="btn_main">
+                <button type="button" class="btn btn-sm btn3">+ Adicionar atividade</button>                
+                <button type="button" class="btn btn-sm btn4">- Excluir todos</button>                
+            </div>
+        </div>
+        
+        <section class="dias-da-semana">
+            <nav class="nav-main">
+                <ul class="weekcontainer d-flex justify-content-around align-items-center"> 
+
+                    <li class="header-horario">
+                        <p>Horário</p>
+                    </li>
+                    
+                    <li class="dia-um">           
+                        <input type="radio" class="d-none" name="aba" id="aba1">
+                        <label for="aba1">Segunda-feira</label>
+                        <div class="content"></div>
+                    </li>
+
+                    <li class="dia-dois">
+                        <input type="radio" class="d-none" name="aba" id="aba2">
+                        <label for="aba2">Terça-feira</label>
+                        <div class="content"></div>
+                    </li>
+
+                    <li class="dia-tres">    
+                        <input type="radio" class="d-none" name="aba"  id="aba3">
+                        <label for="aba3">Quarta-feira</label>
+                        <div class="content"></div>
+                    </li>
+
+                    <li class="dia-quatro">    
+                        <input type="radio" class="d-none" name="aba"  id="aba4">
+                        <label for="aba4">Quinta-feira</label>
+                        <div class="content"></div>
+                    </li>
+
+                    <li class="dia-cinco">    
+                        <input type="radio" class="d-none" name="aba"  id="aba5">
+                        <label for="aba5">Sexta-feira</label>
+                        <div class="content"></div>
+                    </li>
+
+                    <li class="dia-seis">    
+                        <input type="radio" class="d-none" name="aba"  id="aba6">
+                        <label for="aba6">Sábado</label>
+                        <div class="content"></div>
+                    </li>
+
+                    <li class="dia-sete">    
+                        <input type="radio" class="d-none" name="aba"  id="aba7">
+                        <label for="aba7">Domingo</label>
+                        <div class="content"></div>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="pl-horario d-flex">
+            <span class="pl-hr">--:--</span>
+            <span class="pl-hr">--:--</span>
+            <span class="pl-hr">--:--</span>
+            <span class="pl-hr">--:--</span>
+            <span class="pl-hr">--:--</span>
+            <span class="pl-hr">--:--</span>
+            <span class="pl-hr">--:--</span>
+        </section>
+
+
+
+        <div class="imagem">
+            <img src="../Javascript/assets/img/bola-LogoCompasso.svg">
+        </div>
+    </main>
+
+
+    <script src="../Javascript/assets/js/script.js"></script>
+</body>
+</html>

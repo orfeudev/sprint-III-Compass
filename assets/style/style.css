@@ -1,0 +1,205 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+html {
+    max-width:1440px
+}
+header {
+    font-family: 'Nunito', sans-serif;
+}
+.header_content {
+    display:flex;
+    align-items:center;
+    box-shadow: 0px 6px 26px rgba(168, 168, 168, 0.25);
+    height: 100px;
+    margin-top: auto;
+    margin-bottom:auto;
+
+    
+}
+.principal {
+    background-color: #6688FF;
+    border-radius: 0px 14px 15px 0px;
+    padding: 5px 0px 12px 0px;
+    color: #FFFFFF;
+    padding-left: 10px;    
+    line-height: 20%;
+    width: 500px;
+    height: 52px;
+    
+
+}
+.titulo {
+    font-size:18px;
+    font-weight: bold;
+        
+    
+}
+.subtitulo {
+    font-size: 14px;
+    
+}
+.header-btns button {
+    font-size: 14px;
+    height: 33px;  
+    
+}
+.header-btns .btn1{
+    background-color: #2CBE82;
+    margin-right:10px;
+    margin-left:10px;
+}
+.header-btns .btn2{
+    background-color:#DA2B40;
+}
+.relogio {
+    margin-right:10px;
+    padding-right:10px;
+}
+.relogio-estilo {
+    font-size:30px; 
+    font-weight: bold;
+    margin-left: 20px;
+
+
+}
+.calendario{
+    font-size: 12px;
+    font-weight:bold;
+    margin-right:50px;
+    text-align:center;
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+
+}
+.main-container .btn3 {
+    background-color:#2CBE82;
+    color:#ffffff;
+    width:200px  
+}
+.main-container .btn4 {
+    background-color:#DA2B40;
+    color: #FFFFFF;
+    width:200px;
+    height: 30px;  
+}
+.atividade {
+    border-color:#2CBE82;
+    border-radius: 10px 10px 10px 10px;
+    width: 400px;
+    height: 30px;
+}
+.imagem {
+    position: absolute;
+    left: 732px;
+    top: 372px;
+    
+}
+
+.main-container {
+    padding-top:10px
+}
+.dia-da-semana{
+    border-color:#2CBE82;
+    border-radius: 10px 10px 10px 10px;
+    width: 400px;
+    height: 30px
+}
+.btn_main {
+    margin-right: 20px;
+      
+}
+.nav-main .weekcontainer{
+    padding-top:12px;
+    text-align:center;
+    font-weight:bold;
+    color:#FFFFFF;
+}
+
+.dia-um {
+    background-color:#FFA246;
+    color: #FFFFFF;
+    width:125px;
+    height: 25px;  
+    padding-right:7px;
+    font-size:12px;
+    border-radius: 10px 10px 0px 0px;
+}
+.dia-dois {
+    background-color:#35E185;
+    width:125px;
+    height: 25px;  
+    padding-right:7px;
+    font-size:12px;
+    border-radius: 10px 10px 0px 0px;        
+}
+.dia-tres {
+    background-color:#6688FF;
+    width:125px;
+    height: 25px;  
+    padding-right:7px;
+    font-size:12px;
+    border-radius: 10px 10px 0px 0px;
+}
+.dia-quatro {
+    background-color:#B266FF;
+    width:125px;
+    height: 25px;  
+    padding-right:7px;
+    font-size:12px;
+    border-radius: 10px 10px 0px 0px;
+}
+.dia-cinco {
+    background-color:#66D1FF;
+    width:125px;
+    height: 25px;  
+    padding-right:7px;
+    font-size:12px;
+    border-radius: 10px 10px 0px 0px;
+}
+.dia-seis {
+    background-color:#FF66D4;
+    width:125px;
+    height: 25px;  
+    padding-right:7px;
+    font-size:12px;
+    border-radius: 10px 10px 0px 0px;
+}
+.dia-sete{
+    background-color:#FF6666;
+    width:125px;
+    height: 25px;  
+    padding-right:7px;
+    font-size:12px;
+    border-radius: 10px 10px 0px 0px;
+}
+.header-horario{
+    color: #3B3E45;
+    width: 110px;
+    height:90px;
+    border-radius: 7px 7px 7px 7px;
+    padding-top: 30px;
+    box-shadow: 0px 4px 11px
+
+}
+
+.pl-horario{
+    flex-direction: column;
+    margin-left:22px;
+}
+.pl-hr {
+    color: #3B3E45;
+    width: 113px;
+    height:90px;
+    border-radius: 7px 7px 7px 7px;
+    padding-top: 30px;
+    margin-top: 5px;
+    background-color: rgba(102, 136, 255, 0.4);
+    text-align: center;
+    
+}
